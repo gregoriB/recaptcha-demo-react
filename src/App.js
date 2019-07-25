@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      {process.env.TEST_VAR}
+      <div>TESTING</div>
+      {process.env.REACT_APP_TEST_VAR}
     </div>
   );
 }
