@@ -6,6 +6,8 @@ function App() {
   const handleOnChange = () => {
     console.log('recaptcha worked!!')
   }
+
+  console.log(process.env.REACT_APP_SITE_KEY)
   return (
     <div className="App">
     <ReCAPTCHA
