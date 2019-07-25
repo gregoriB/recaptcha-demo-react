@@ -1,11 +1,17 @@
 import React from 'react';
+import ReCAPTCHA from "react-google-recaptcha";
 import './App.css';
 
 function App() {
+  const handleOnChange = () => {
+    console.log('recaptcha worked!!')
+  }
   return (
     <div className="App">
-      <div>TESTING</div>
-      {process.env.REACT_APP_TEST_VAR}
+    <ReCAPTCHA
+      sitekey={process.env.REACT_APP_SITE_KEY}
+      onChange={handleOnChange}
+    />,
     </div>
   );
 }
