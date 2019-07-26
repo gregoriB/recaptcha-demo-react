@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <form name="contact" method="post" onSubmit={handleSubmit}>
+      <form name="contact" method="post">
         <input type="hidden" name="form-name" value="contact" />
           <p>
             <label>
