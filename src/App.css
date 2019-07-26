@@ -15,13 +15,44 @@ body {
   margin: 10vh auto;
   margin-bottom: 0;
   height: 50VH;
-  width: 300px;
+  width: 304px;
+  background-color: #203ea993;
+  padding: 1rem;
+  border-radius: 5px;
 }
 
 .App form * {
   width: 100%;
+  box-sizing: border-box;
 }
 
-.App textarea {
+.App form input {
+  padding: .5rem;
+  margin: .1rem;
+}
+
+.App form textarea {
+  padding: .5rem;
   height: 70%;
+  width: 100%;
+  resize: none;
+  margin-bottom: .2rem;
+}
+
+.App form button {
+  cursor: pointer;
+  width: 30%;
+  padding: .5rem;
+  color: #203ea9;
+  font-weight: bold;
+  background-color: #f9f9f9;
+  border:none;
+  border-radius: 3px;
+  align-self: flex-start;
+  margin-top: .2rem;
+}
+
+.App form button:disabled {
+  cursor: default;
+  opacity: .5;
 }
