@@ -24,6 +24,13 @@ body {
 .App form * {
   width: 100%;
   box-sizing: border-box;
+  border: none;
+}
+
+.App form h1 {
+  color: #f9f9f9;
+  margin: 0;
+  margin-bottom: .3rem;
 }
 
 .App form input {
@@ -36,7 +43,7 @@ body {
   height: 70%;
   width: 100%;
   resize: none;
-  margin-bottom: .2rem;
+  margin: .1rem;
 }
 
 .App form button {
@@ -49,7 +56,7 @@ body {
   border:none;
   border-radius: 3px;
   align-self: flex-start;
-  margin-top: .2rem;
+  margin-top: .5rem;
 }
 
 .App form button:disabled {

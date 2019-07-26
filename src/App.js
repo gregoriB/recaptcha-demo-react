@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <form name="contact" method="post">
-        
+        <h1>Message Me</h1>
         <input type="hidden" name="form-name" value="contact" />
         <input type="text" name="name" placeholder='Name' required />
         <input type="email" name="email" placeholder='Your Email' required />
